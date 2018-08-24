@@ -4,7 +4,7 @@
 
 	<groupId>com.petclinic</groupId>
 	<artifactId>km-pet-clinic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>km-pet-clinic</name>
@@ -44,6 +44,19 @@
 		<tag>HEAD</tag>
 
   </scm>
+  
+  <distributionManagement>
+        <repository>
+            <id>km-pet-clinic-repo</id>
+            <name>KM Pet Clinic Repo</name>
+            <url>scm:git:https://github.com/kresomarenic/km-pet-clinic.git</url>
+        </repository>
+        <snapshotRepository>
+            <id>km-pet-clinic-snapshot</id>
+            <name>KM Pet Clinic Snapshot Repo</name>
+            <url>file:///C:/Java_development/Udemy/Spring Framework Guru/Snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 	<modules>
