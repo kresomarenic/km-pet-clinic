@@ -4,7 +4,7 @@
 
 	<groupId>com.petclinic</groupId>
 	<artifactId>km-pet-clinic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>km-pet-clinic</name>
@@ -34,6 +34,7 @@
 				<artifactId>maven-release-plugin</artifactId>							
 				<configuration>
 					<goal>install</goal>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -42,6 +43,7 @@
 	<scm>
 		<developerConnection>scm:git:https://github.com/kresomarenic/km-pet-clinic.git</developerConnection>
 		<tag>HEAD</tag>
+		
 
   </scm>
   
