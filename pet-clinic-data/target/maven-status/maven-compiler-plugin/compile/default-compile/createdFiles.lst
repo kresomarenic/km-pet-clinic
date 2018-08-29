@@ -1,0 +1,5 @@
+com\petclinic\kmpetclinic\model\PetType.class
+com\petclinic\kmpetclinic\model\Pet.class
+com\petclinic\kmpetclinic\model\Vet.class
+com\petclinic\kmpetclinic\model\Owner.class
+com\petclinic\kmpetclinic\model\Person.class
